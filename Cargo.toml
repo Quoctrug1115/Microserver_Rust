@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "crates/advance-bin",
+    "crates/config",
+    "crates/infrastructure",
+]

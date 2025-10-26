@@ -1,0 +1,11 @@
+[env]
+CARGO_MAKE_EXTND_WORKSPACE_MAKEFILE = true
+
+[config]
+default_to_workspace = false
+
+[tasks.dev]
+install_crate="cargo-watch"
+cwd = "./crates/advance-bin"
+command="cargo"
+args= ["watch","-x","run"]
